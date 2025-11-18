@@ -1,18 +1,96 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>تسجيل الأجهزة</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-DTpJ_LAX.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/vendor-BguiL_dF.js">
-    <link rel="modulepreload" crossorigin href="/assets/ui-BAmjWuk4.js">
-    <link rel="modulepreload" crossorigin href="/assets/utils-BMrGpyv6.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-DqPTfBcp.css">
+    <title>GitHub Copilot Settings</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #ffffff;
+      }
+      .container {
+        text-align: center;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        max-width: 600px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        margin: 0 0 1rem 0;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      p {
+        font-size: 1.1rem;
+        margin: 1rem 0;
+        line-height: 1.6;
+      }
+      .link {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background: #ffffff;
+        color: #667eea;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      }
+      .info-box {
+        margin-top: 2rem;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 5px;
+        text-align: left;
+      }
+      .info-box h2 {
+        font-size: 1.3rem;
+        margin: 0 0 0.5rem 0;
+      }
+      .info-box ul {
+        margin: 0.5rem 0;
+        padding-left: 1.5rem;
+      }
+      .info-box li {
+        margin: 0.3rem 0;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div class="container">
+      <h1>🚀 GitHub Copilot Settings</h1>
+      <p>Welcome to the GitHub Copilot configuration reference page!</p>
+      <p>This page provides information about configuring GitHub Copilot in your development environment.</p>
+      
+      <div class="info-box">
+        <h2>What you can configure:</h2>
+        <ul>
+          <li>Network and proxy settings</li>
+          <li>Custom certificate configurations</li>
+          <li>IDE-specific preferences (VS Code, JetBrains, Visual Studio)</li>
+          <li>Authentication and connection settings</li>
+          <li>Code suggestions and behavior</li>
+        </ul>
+      </div>
+      
+      <a href="https://docs.github.com/en/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot" class="link" target="_blank">View Official Documentation →</a>
+      
+      <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+        For detailed setup instructions and troubleshooting, visit the official GitHub documentation.
+      </p>
+    </div>
   </body>
-</html> 
+</html>
